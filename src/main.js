@@ -8,12 +8,12 @@ export const PRODUCTS_DATA = {
     badgeIcon: "🎓",
     badgeBg: "bg-indigo",
     description: "The next-generation mobile education platform. Stream bite-sized interactive courses, take adaptive quizzes with instant explanations, and study fully offline anywhere.",
-    version: "1.0.0 (Release)",
-    size: "43.8 MB (45,920,860 bytes)",
+    version: "1.0.1 (Latest Release)",
+    size: "43.8 MB (45,930,980 bytes)",
     platform: "Android 7.0+ (API 24+)",
     format: "Direct APK Package",
     license: "Free / Open Source",
-    actionBtn: `<a href="EduNex.apk" download="EduNex.apk" class="btn-main" style="width:100%; justify-content:center;" onclick="triggerToast('EduNex.apk')">Download EduNex.apk (43.8 MB)</a>`
+    actionBtn: `<a href="EduNex.apk" download="EduNex.apk" class="btn-main" style="width:100%; justify-content:center;" onclick="triggerToast('EduNex.apk')">Download Latest EduNex.apk (v1.0.1)</a>`
   }
 };
 
