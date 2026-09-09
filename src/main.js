@@ -8,12 +8,12 @@ export const PRODUCTS_DATA = {
     badgeIcon: "🎓",
     badgeBg: "bg-indigo",
     description: "The next-generation mobile education platform. Stream bite-sized interactive courses, take adaptive quizzes with instant explanations, and study fully offline anywhere.",
-    version: "1.0.1 (Latest Release)",
-    size: "43.80 MB (4,59,31,288 bytes)",
+    version: "1.0.2 (Latest Release)",
+    size: "24.5 MB (25,690,112 bytes)",
     platform: "Android 7.0+ (API 24+)",
     format: "Direct APK Package",
     license: "Free / Open Source",
-    actionBtn: `<a href="EduNex.apk" download="EDUNEX_V1.0.1.apk" class="btn-main" style="width:100%; justify-content:center;" onclick="triggerToast('EDUNEX_V1.0.1.apk')">Download Latest EduNex.apk (v1.0.1)</a>`
+    actionBtn: `<a href="EDUNEX_V1.0.2.apk" download="EDUNEX_V1.0.2.apk" class="btn-main" style="width:100%; justify-content:center;" onclick="triggerToast('EDUNEX_V1.0.2.apk')">Download Latest EduNex.apk (v1.0.2)</a>`
   }
 };
 
@@ -76,7 +76,7 @@ export function closeModal() {
 }
 
 export function openQRModal() {
-  const apkUrl = new URL('EduNex.apk', window.location.href).href;
+  const apkUrl = new URL('EDUNEX_V1.0.2.apk', window.location.href).href;
   const qrApi = 'https://api.qrserver.com/v1/create-qr-code/?size=200x200&margin=10&data=' + encodeURIComponent(apkUrl);
   const qrImg = document.getElementById('qrImg');
   const modal = document.getElementById('qrModal');
