@@ -9,7 +9,7 @@ export const PRODUCTS_DATA = {
     badgeBg: "bg-indigo",
     description: "The next-generation mobile education platform. Stream bite-sized interactive courses, take adaptive quizzes with instant explanations, and study fully offline anywhere.",
     version: "1.0.2 (Latest Release)",
-    size: "50.48 MB (5,29,35,470 bytes)",
+    size: "50.75 MB (5,32,12,752 bytes)",
     platform: "Android 7.0+ (API 24+)",
     format: "Direct APK Package",
     license: "Free / Open Source",
